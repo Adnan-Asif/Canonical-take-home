@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://assets.ubuntu.com/v1/vanilla-framework-version-3.14.0.min.css"
+    />
+    
+    <style>
+      .row {
+        margin-top: 20px;
+      }
+      .p-card {
+        border-radius: 2px;
+        box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.15),
+          0 2px 2px -1px rgba(0, 0, 0, 0.15), 0 0 3px 0 rgba(0, 0, 0, 0.2);
+      }
+      #heading1,
+      #heading2,
+      #heading3 {
+        border-radius: 2px;
+        border-top: 3px solid #a87ca0;
+      }
+      .text {
+        border-top: 1px dotted #d9d9d9;
+        border-bottom: 1px dotted #d9d9d9;
+        min-height: 400px;
+        margin: 0 0.5rem;
+        padding: 1rem 0.5rem 0.5rem;
+      }
+      .title {
+        padding: 0;
+        margin: 0.5rem 0;
+      }
+      .title > a {
+        color: rgb(0, 102, 204);
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="row u-equal-height u-clearfix">
+      <div class="col-4">
+        <div class="p-card u-no-padding">
+          <div class="p-card__inner" id="heading1"></div>
+          <div class="text">
+            <a href="" id="image1link">
+              <img class="p-card__image" id="image1" src="" />
+            </a>
+            <div class="p-card__inner title">
+              <h3>
+                <a href="" id="title1"></a>
+              </h3>
+              <p>
+                by <a href="#" id="author1"></a> on
+                <span id="date1"></span>
+              </p>
+            </div>
+          </div>
+          <div class="p-card__inner">Article</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="p-card u-no-padding">
+          <div class="p-card__inner" id="heading2"></div>
+          <div class="text">
+            <a href="" id="image2link">
+              <img class="p-card__image" id="image2" src="" />
+            </a>
+            <div class="p-card__inner title">
+              <h3>
+                <a href="" id="title2"></a>
+              </h3>
+              <p>
+                by <a href="#" id="author2"></a> on
+                <span id="date2"></span>
+              </p>
+            </div>
+          </div>
+          <div class="p-card__inner">Article</div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="p-card u-no-padding">
+          <div class="p-card__inner" id="heading3"></div>
+          <div class="text">
+            <a href="" id="image3link">
+              <img class="p-card__image" id="image3" src="" />
+            </a>
+            <div class="p-card__inner title">
+              <h3>
+                <a href="" id="title3"></a>
+              </h3>
+              <p>
+                by <a href="#" id="author3"></a> on
+                <span id="date3"></span>
+              </p>
+            </div>
+          </div>
+          <div class="p-card__inner">Article</div>
+        </div>
+      </div>
+    </div>
+    <script src="src.js"></script>
+  </body>
+</html>
